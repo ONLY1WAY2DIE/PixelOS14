@@ -1,5 +1,7 @@
 #!/bin/bash
+cd "$GITHUB_WORKSPACE"
 set -e
+
 export DEVICE=panther
 export ROM_MANIFEST="https://github.com/PixelOS-AOSP/manifest"
 export ROM_BRANCH="fourteen"
