@@ -12,7 +12,7 @@ git config --global user.email "dev@only1way2die.example"
 mkdir -p ~/android/rom && cd ~/android/rom
 repo init -u $ROM_MANIFEST -b $ROM_BRANCH --depth=1
 mkdir -p .repo/local_manifests
-cp /path/to/local_manifests/pixelos_panther_a14.xml .repo/local_manifests/
+cp local_manifests/Pixelos_panther_a14.xml .repo/local_manifests/
 repo sync -j4
 source build/envsetup.sh
 lunch aosp_panther-$BUILD_TYPE
