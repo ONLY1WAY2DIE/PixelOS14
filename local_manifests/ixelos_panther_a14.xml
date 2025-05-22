@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="PixelOS-Devices/device_google_panther" path="device/google/panther" revision="uvite" />
+  <project name="PixelOS-Devices/vendor_google_panther" path="vendor/google/panther" revision="uvite" />
+  <project name="PixelOS-Devices/kernel_google_gs" path="kernel/google/gs" revision="uvite" />
+</manifest>
