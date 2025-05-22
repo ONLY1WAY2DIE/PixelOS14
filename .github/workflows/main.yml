@@ -1,0 +1,16 @@
+name: PixelOS Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Start Build Script
+        run: |
+          chmod +x ./build.sh
+          ./build.sh
