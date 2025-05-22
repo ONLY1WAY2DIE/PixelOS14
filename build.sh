@@ -2,7 +2,7 @@
 set -e
 export DEVICE=panther
 export ROM_MANIFEST="https://github.com/PixelOS-AOSP/manifest"
-export ROM_BRANCH="uvite"
+export ROM_BRANCH="fourteen"
 export BUILD_TYPE=userdebug
 
 sudo apt-get update && sudo apt-get install -y git-core repo curl zip unzip python3 python3-pip
