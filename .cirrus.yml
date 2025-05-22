@@ -16,7 +16,7 @@ task:
     - mkdir -p ~/android/rom && cd ~/android/rom
     - git config --global user.name "$GIT_USERNAME"
     - git config --global user.email "$GIT_EMAIL"
-    - repo init -u $ROM_MANIFEST -b $ROM_BRANCH --git-lfs --depth=1
+    - repo init -u $ROM_MANIFEST -b $ROM_BRANCH --depth=1
     - mkdir -p .repo/local_manifests
     - curl -L "https://raw.githubusercontent.com/ONLY1WAY2DIE/pixelos-panther-a14/main/local_manifests/pixelos_panther_a14.xml" -o .repo/local_manifests/pixelos_panther_a14.xml
     - repo sync -j4
